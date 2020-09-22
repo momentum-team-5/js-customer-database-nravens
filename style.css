@@ -1,0 +1,4 @@
+#customerDisplay {
+    display: flex;
+    flex-wrap: wrap;
+}
