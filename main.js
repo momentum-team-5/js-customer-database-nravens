@@ -23,7 +23,7 @@ for (let customer of customers) {
     newDiv.appendChild(nameHeader)
     nameHeader.innerText = name
 
-    let address = customer.location.street + customer.location.city + ', ' + 
+    let address = customer.location.street + '\n' + customer.location.city + ', ' + 
     customer.location.state + ' ' + customer.location.postcode
     let addressParagraph = document.createElement('p')
     newDiv.appendChild(addressParagraph)
